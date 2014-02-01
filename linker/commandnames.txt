@@ -1,0 +1,12 @@
+#!@help helpmessage help message
+#!@lobsters commands list of commands
+#!@!help op op user
+#!@ponies rename rename command
+test testsucceed test
+ping nikkybot-pong ping-nikky pong
+Polo ping polo-ping
+#!@calc-on calcon turns calc on
+#!@calc-off calcoff turns calc off
+bye! bye says bye
+#!@status thegame check the game status
+~blub blubclub blub

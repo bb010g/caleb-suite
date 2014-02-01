@@ -1,0 +1,43 @@
+Did you know that Caleb lives in Antartica?
+Did you know that Caleb can speak to penguins?
+Did you know that Caleb killed a man with his thumb?
+Did you know that Caleb is actually a person?
+Did you know that Caleb + 7 = Pie?
+CalebH owns 4.2% of Steve Job's body.
+Caleb used EMOTE! It's super effective!
+Commands: #!@help (help) #?@help (commands) #!@::help::Joke (fact) #!@:help (joke) #!@@help (knock knock joke) #!!@help (slap) #??@help (calculator) #!@$help (toggle EMOTE) #!@!help (op) #!?!?help (command-specific help) #!!help (propoganda) #!!!help (rename) #?*help (define) #!@#$help (evil) #**&^help (prevent stealing) #!@#!@#!@help (toggle rest) #!*%$help (autoslap) #O_o!help (list bots) #%%%!help (spam)
+Usage: #!@! user
+#%%%!help (spam) link: https://www.youtube.com/watch?v=anwy2MPT5RE
+
+1 sec wait between commands
+
+Function examples:
+---
+#!@help #!@define
+// #!@define : define functions
+// #!@define usage <command> <"usage">
+// #!@define function <command> : <expr>
+// #!@define trigger <command> : <regexp>
+#!@help #!\
+// #!\ : lambda : anonymous function
+// #!\ <var> [var ..] -> <expr>
+#!@help [expr]
+// [expr] : infix (not command)
+// #!@eval (1 [#!@plus] 2) [#!@times] 7
+#!@define usage #!@fib "Fibonacci number"
+#!@define function #!@fib : #!\ x -> #!@if ((x [#!@equal] 0) [#!@or] (x [#!@equal] 1)) x ((#!@fib (x [#!@minus] 1)) [#!@plus#!@] (#!@fib (x [#!@minus#!@] 2)))
+#!@src #!@fib
+// #!\ x -> #!@if ((x [#!@equal] 0) [#!@or] (x [#!@equal] 1)) x ((#!@fib (x [#!@minus] 1)) [#!@plus#!@] (#!@fib (x [#!@minus#!@] 2)))
+#!@eval #!@fib 7
+// 8
+#!@calc 1 + 2
+// 3
+#!@calc 5+9*2
+// 23
+#!@define usage #!@pong "pong"
+#!@define function #!@pong : #!@\ pong -> #!@say pong
+#!@define trigger #!@pong : '\^\(\[pP\]\[iI\]\[nN\]\[gG\]\)\.\*'
+---
+
+DISCO
+Youtube 64p links
