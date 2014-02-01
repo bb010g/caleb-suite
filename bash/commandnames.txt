@@ -4,7 +4,7 @@
 %rename rename command
 test testsucceed test
 ping nikkybot-pong ping-nikky pong
-Bye! bye says bye
+Goodbye! bye says bye
 %status thegame status check
 ~blub blubclub blub club
 %LOLCODE lolcode LOLCODE
