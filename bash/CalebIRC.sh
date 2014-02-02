@@ -3,7 +3,7 @@
 
 iidir='ii'
 
-pgrep -f $"\-n $1 \-f CalebBot" && echo 'already running' || ii -s "$2" -p 6667 -i "$iidir" -n "$1" -f CalebBot &
+pgrep -f $"ii \-s "$2" -p 6667 \-n $1 \-f CalebBot" && echo 'already running' || ii -s "$2" -p 6667 -i "$iidir" -n "$1" -f CalebBot &
 
 echo "/j #$3" > "$iidir/$2/in"
 

@@ -1,7 +1,9 @@
-%help helpmessage help message
+%help helpmessage help message & command help
+%usage usagemessage command usage
 %commands commands list of commands
 %op op op user
 %rename rename command
+%multiline multiline multiline input
 test testsucceed test
 ping nikkybot-pong ping-nikky pong
 Goodbye! bye says bye
