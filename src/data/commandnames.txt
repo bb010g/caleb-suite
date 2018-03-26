@@ -1,0 +1,21 @@
+%help helpmessage help message & command help
+%usage usagemessage command usage
+%commands commands list of commands
+%op op op user
+%rename rename command
+%multiline multiline multiline input
+%taps karma_get check 'em
+%tap karma_inc ++
+%slap karma_dec --
+%addquote quote_add add a quote
+%delquote quote_del delete a quote
+%quote quote_get get a quote
+test testsucceed test
+ping pong ping-pong
+pong ping pong-ping
+ding dong doorbell
+Hello hello says hello
+Bye bye says bye
+Night goodnight says goodnight
+%status thegame status check
+~blub blubclub blub club
